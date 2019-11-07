@@ -1,0 +1,3 @@
+com\simple\spring\app\controllers\IndexController.class
+interceptors\WebConfig.class
+com\simple\spring\app\SpringApp.class

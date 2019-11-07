@@ -1,0 +1,16 @@
+<!DOCTYPE HTML>
+<html xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+	xmlns:th="http://www.thymeleaf.org" layout:decorate="~{layouts/layout}">
+<head>
+<title th:utext="#{application.title}">Page Title</title>
+
+  			
+</head>
+<body>
+	<div layout:fragment="content">
+<h1 th:if="${data != null}" th:utext="|Hello ${data}|">This is a Heading</h1>
+<p>This is a paragraph.</p>
+</div>
+
+</body>
+</html>
